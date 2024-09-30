@@ -31,5 +31,5 @@ const users3 = [
     },
 ];
 
-const newArrayUsers3 = users.map(user => ({...user, isMarried: true}));
+const newArrayUsers3 = users3.map(user => ({...user, isMarried: true}));
 console.log(newArrayUsers3);
